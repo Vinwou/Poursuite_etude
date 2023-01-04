@@ -1,0 +1,295 @@
+% Welcome! This is the unofficial Integrated Mill Systems Beamer Template.
+% IMPORTANT:
+% This work, "Integrated Mill Systems Beamer Theme", is a derivative
+% of "Umeå University Unofficial Beamer Theme" by Jesper Erixon, CC 4.0 BY.
+% (https://www.overleaf.com/latex/templates/umea-university-unofficial-beamer-theme/ptvmzxqzjhcn)
+% which is a derivative
+% of "University of Udine Unofficial Beamer Theme" by Marco Basaldella, University of Udine, CC 4.0 BY. 
+% (https://www.overleaf.com/latex/templates/university-of-udine-unofficial-beamer-theme/zndkgxrjsdzt) 
+%
+% The main functionality and commands are 
+% all credited to Marco Basaldella (and Till Tantau et al. for creating the beamer document class in
+% the first place).  
+%
+% "Integrated Mill Systems Beamer Theme" is licensed under CC 4.0 by Simon Richard.
+
+% Background photo taked by 
+% Chris Liverani (https://unsplash.com/@chrisliverani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+% on Unsplash (https://unsplash.com/s/photos/header-industrial?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
+
+
+% Note that [usenames,dvipsnames] is MANDATORY due to compatibility
+% issues between tikz and xcolor packages.
+
+\documentclass[usenames,dvipsnames,13pt,aspectratio=169]{beamer} 
+% Add option 'aspectratio=169' for 16:9 widescreen 
+% Add option  'handout' to ignore animations
+% If you have a smaller amount of text, feel free to also try '11pt'! / Jesper
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usetheme{ims}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[autolanguage]{numprint}
+
+\usepackage{xcolor}
+	
+\usepackage{pdfpages}
+
+%%% Bibliography
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+% Author names in publication list are consistent 
+% i.e. name1 surname1, name2 surname2
+% See https://tex.stackexchange.com/questions/106914/biblatex-does-not-reverse-the-first-and-last-names-of-the-second-author
+\DeclareNameAlias{author}{given-family}
+
+%%% Suppress biblatex annoying warning
+\usepackage{silence}
+\WarningFilter{biblatex}{Patching footnotes failed}
+
+%%% Some useful commands
+% pdf-friendly newline in links
+\newcommand{\pdfnewline}{\texorpdfstring{\newline}{ }} 
+% Fill the vertical space in a slide (to put text at the bottom)
+\newcommand{\framefill}{\vskip0pt plus 1filll}
+
+%%% Additional packages, added by Jesper Erixon
+% Use babel to neatly translate 'abstract' etc. to swedish  or other supported language
+%\usepackage[swedish]{babel}
+
+%%% Enter additional packages below (or above, I can't stop you)! / Jesper
+\renewcommand{\proofname}{\sffamily{Proof}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% YOUR PRESENTATION BELOW %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Integrated Mill Systems Beamer Theme]{Poursuite d'étude}
+\date[\today]{\small\today}
+\author[Luke Skywalker]{
+  Lycée Le Corbusier
+  \pdfnewline
+  \texttt{}
+}
+\institute{BTS CPRP 1}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{\contentsname}
+\tableofcontents
+\end{frame}
+
+
+
+
+
+
+
+\section{Tour d'horizon}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Tour d'horizon}
+
+	\begin{center}
+	     \includegraphics[width=0.8\textwidth]{SCH1.PNG}
+	\end{center}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+\section{Les différentes voies}
+\subsection{Les compromis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Le dilemme}
+
+	\begin{center}
+	     \includegraphics[width=1\textwidth]{S12.png}
+	\end{center}
+
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Les différentes voies}
+
+	\begin{center}
+	     \includegraphics[width=1\textwidth]{S11.png}
+	\end{center}
+
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Statistique}
+
+	\begin{center}
+	     \includegraphics[width=0.9\textwidth]{S13.png}
+	\end{center}
+
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\subsection{Licences initiales}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Choix des licences : zoom sur les licences scientifiques}
+
+	\begin{center}
+	     \includegraphics[width=1\textwidth]{S14.png}
+	\end{center}
+
+Licence = université = inscription différente pour chaque université.\\
+Date inscription année dernière : 6 \textcolor{orange}{\textbf{juillet}} à partir de 14h au 22 \textcolor{orange}{\textbf{Avril}}juillet 
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Licences professionnelles}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Choix des licences professionnelles}
+
+	\begin{center}
+	     \includegraphics[width=1\textwidth]{S15.png}
+	\end{center}
+
+Trouver une entreprise. \\
+Inscription de \textcolor{orange}{\textbf{Avril}} à \textcolor{orange}{\textbf{Mai}}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Les bachelors}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Bachelor}
+
+\textcolor{orange}{\textbf{Le grade de licence peut être désormais attribué aux programmes bachelors des écoles d’ingénieurs après avis de la Commission des titres d'ingénieurs (CTI).}}
+
+
+\textcolor{blue}{\textbf{Peu de bachelor en sciences / technologie / mécanique : Regarder chaque école pour savoir ce qu'elles proposent.}}
+
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\subsection{La prépa ATS}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Prépa Adaptation Technicien Supérieur}
+
+	\begin{center}
+	     \includegraphics[width=1\textwidth]{S15.png}
+	\end{center}
+
+Ouverture des sites (en général) fin février – début mars \\
+Fermeture : Mai
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+\framecard{Identités remarquables}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Identités remarquables}
+
+\begin{frame}{Identités remarquables}
+
+
+\begin{center}
+ \huge{G: $  (4x-3)^2 $} \\
+ \end{center}
+
+\vspace{1cm}
+
+\begin{center}
+ \huge{H: $ (3x+1)^2 - (x-3)^2$} \\
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+ \huge{I: $ (2x+1)(2x-1) + (1-3x)^2 $} \\
+\end{center}
+
+
+
+\end{frame}
+
+
+\framecard[IMSOrange]{Etudes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\end{document}
